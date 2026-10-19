@@ -1,0 +1,6 @@
+{
+  "name": "RoboVac AI - Intelligent Autonomous Cleaning Simulator & Game",
+  "description": "An interactive intelligent vacuum cleaner simulation and game featuring uninformed search (BFS, DFS, UCS), informed search (Greedy Best-First, A*), and goal/utility-based agents with dynamic obstacles, battery management, and floorplan editor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
