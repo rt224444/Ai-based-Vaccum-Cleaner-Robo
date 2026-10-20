@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/Ai-based-Vaccum-Cleaner-Robo/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
